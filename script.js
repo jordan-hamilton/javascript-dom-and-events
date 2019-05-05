@@ -121,7 +121,7 @@ function createButton(parent, label) {
    * with the label and appended to the parent node.
    */
   var newButton = document.createElement('button');
-  newButton.textContent = label
+  newButton.textContent = label;
   parent.appendChild(newButton);
 }
 
