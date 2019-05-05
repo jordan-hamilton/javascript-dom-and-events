@@ -18,7 +18,7 @@ function createTableBody(newTable) {
   for (var i = 0; i < 3; i++) {
     var row = document.createElement('tr');
     for (var j = 0; j < 4; j++) {
-      cell = document.createElement('td');
+      var cell = document.createElement('td');
       cell.textContent = (i + 1) + ', ' + (j + 1);
       cell.style.border = '1px solid black';
       row.appendChild(cell);
