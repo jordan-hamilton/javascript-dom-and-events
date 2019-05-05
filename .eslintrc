@@ -4,6 +4,6 @@
         "browser": true
     },
     "rules":       {
-        "valid-jsdoc":  "off"
+        "require-jsdoc":  "off"
     }
 }
