@@ -1,6 +1,9 @@
 {
-  "extends": ["eslint:recommended", "google"],
-  "env": {
+  "extends":       ["eslint:recommended", "google"],
+  "env":           {
         "browser": true
+    },
+    "rules":       {
+        "valid-jsdoc":  "off"
     }
 }
