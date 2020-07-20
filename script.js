@@ -64,7 +64,7 @@ function moveUp(event) {
     if (newCell && oldCell) {
       oldCell.removeAttribute('id');
       oldCell.style.border = '1px solid black';
-      newCell.style.border = '2px solid black';
+      newCell.style.border = '2px solid green';
       newCell.setAttribute('id', 'selected');
     }
   }
@@ -82,7 +82,7 @@ function moveDown(event) {
     if (newCell && oldCell) {
       oldCell.removeAttribute('id');
       oldCell.style.border = '1px solid black';
-      newCell.style.border = '2px solid black';
+      newCell.style.border = '2px solid green';
       newCell.setAttribute('id', 'selected');
     }
   }
@@ -98,7 +98,7 @@ function moveLeft(event) {
   if (newCell && oldCell) {
     oldCell.removeAttribute('id');
     oldCell.style.border = '1px solid black';
-    newCell.style.border = '2px solid black';
+    newCell.style.border = '2px solid green';
     newCell.setAttribute('id', 'selected');
   }
 }
@@ -110,7 +110,7 @@ function moveRight(event) {
   if (newCell && oldCell) {
     oldCell.removeAttribute('id');
     oldCell.style.border = '1px solid black';
-    newCell.style.border = '2px solid black';
+    newCell.style.border = '2px solid green';
     newCell.setAttribute('id', 'selected');
   }
 }
@@ -145,5 +145,5 @@ document.getElementsByTagName('button')[4].addEventListener('click', markCell);
 document.addEventListener('DOMContentLoaded', function(event) {
   var cell = document.getElementsByTagName('td')[0];
   cell.setAttribute('id', 'selected');
-  cell.style.border = '2px solid black';
+  cell.style.border = '2px solid green';
 });
